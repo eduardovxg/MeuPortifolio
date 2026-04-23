@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(240, 240, 240);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.RetanguloTopo{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.Nome{
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Card{
+    padding: 20px;
+    background-color: white;
+    width: 659px;
+    margin-bottom: 20px;
+    background-clip:border-box;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px 0px;
+    border-radius: 20px;
+}
+.Card:hover{
+    color: rgb(2, 2, 148);
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 25px;
+    transition: 0.8s;
+}
+.Linguagens{
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: #757474;
+    color: white;
+    font-weight: 800;
+}
+footer {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.Contato{
+    font-weight: bold;
+    color: #757474;
+    cursor: pointer;
+}
+.Contato:hover{
+    color: rgb(2, 2, 148);
+    transition: 0.7s;
+}
+.proj{
+    opacity: 0;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+.Card:hover .proj{
+    opacity: 1;
+}
